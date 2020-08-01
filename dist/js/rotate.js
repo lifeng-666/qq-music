@@ -1,0 +1,1 @@
+!function(){var n=(0,window.Zepto)(".img-box"),t=0,o=null;window.start=function(){o=setInterval(function(){n.css({transform:"rotateZ("+t+"deg)"}),t+=1,t%=360},70)},window.end=function(){clearInterval(o)}}();

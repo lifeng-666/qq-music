@@ -1,0 +1,1 @@
+!function(n){n.status="pause",n.index=0,n.next=function(){2===n.index?n.index=0:n.index++},n.pre=function(){0===n.index?n.index=2:n.index--},n.changeStatus=function(){n.status="pause"===n.status?"playing":"pause"}}(window.player);

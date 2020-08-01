@@ -1,0 +1,1 @@
+window.Zepto.ajax({type:"GET",url:"../mock/data.json",success:function(o){window.data=o,window.curData=o[0],window.render()},error:function(o){console.log("error")}});
